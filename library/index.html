@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,44 +11,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="header">
             <div class="brooklyn">
                 <h1>Brooklyn Publik Library</h1>
             </div>
-            
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="#favorites" class="nav-link">Favorites</a></li>
-                        <li class="nav-item"><a href="#cofee_shop" class="nav-link">Cofee shop</a></li>
-                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                        <li class="nav-item"><a href="#library_card" class="nav-link">Library card</a></li>
-                    </ul>
-                </nav>
-            
-            <div><img class="icon_profile" src="img/icon_profile.png" alt="Profile" width="28" height="28"></div> 
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#favorites" class="nav-link">Favorites</a></li>
+                    <li class="nav-item"><a href="#cofee_shop" class="nav-link">Cofee shop</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#library_card" class="nav-link">Library card</a></li>
+                </ul>
+            </nav>
+
+            <div><img class="icon_profile" src="assets/svg/icon_profile.svg" alt="Profile" width="28" height="28"></div>
         </div>
     </header>
     <main class="main-container">
         <div class="container">
             <section class="welcome" id="welcome">
-                <img class="icon" src="img/Welcome.svg" alt="Icon" width="1440px" height="600px">
-                <div class="wel1"><h2 class="wel">WELCOME</br>TO THE BROOKLYN</br>LIBRARY</h2></div>
+                <img class="icon" src="assets/img/Welcome.png" alt="Icon" width="1440px" height="600px">
+                <div class="wel1">
+                    <p class="wel">WELCOME</br>TO THE BROOKLYN</br>LIBRARY</p>
+                </div>
             </section>
             <section class="about" id="about">
                 <h2 class="section-title">About</h2>
-                <h3 class="text-about">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</h3>
+                <div class="line"></div>
+                <h3 class="text-about">The Brooklyn Library is a free workspace, a large number of books and a cozy
+                    coffee shop inside</h3>
                 <ul class="images-items">
-                    <li class="image"><img class="image1" src="img/image 1.png" alt="image 1"></li>
-                    <li class="image"><img class="image2" src="img/image 2.png" alt="image 2"></li>
-                    <li class="image"><img class="image3" src="img/image 3.png" alt="image 3"></li>
+                    <li class="image"><img class="image1" src="assets/img/image 1.png" alt="image 1"></li>
+                    <li class="image"><img class="image2" src="assets/img/image 2.png" alt="image 2"></li>
+                    <li class="image"><img class="image3" src="assets/img/image 3.png" alt="image 3"></li>
                 </ul>
                 <div class="carousel-pagination">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
+                    <button class="dot active"></button>
+                    <button class="dot"></button>
+                    <button class="dot"></button>
                 </div>
             </section>
             <section class="favorites" id="favorites">
@@ -55,16 +61,25 @@
                 <div class="line"></div>
                 <h3 class="text-favorites">Pick favorites of season</h3>
                 <div class="seasons">
-                    <ul class="season">
-                        <li class="year">Winter</li>
-                        <li class="year">Spring</li>
-                        <li class="year">Summer</li>
-                        <li class="year">Autumn</li>
-                    </ul>
+                    <form>
+                        <label>
+                            <input type="radio" name="season" value="Winter">Winter</label>
+                        <label>
+                            <input type="radio" name="season" value="Spring">
+                            Spring
+                        </label>
+                        <label>
+                            <input type="radio" name="season" value="Summer">
+                            Summer
+                        </label>
+                        <label>
+                            <input type="radio" name="season" value="Autumn">
+                            Autumn
+                        </label>
+                    </form>
                 </div>
                 <div class="favorites-items">
-                    <div class=""
-                </div>
+                    <div class="" </div>
             </section>
             <section class="cofee_shop" id="cofee_shop">
 
@@ -78,4 +93,5 @@
         </div>
     </main>
 </body>
+
 </html>

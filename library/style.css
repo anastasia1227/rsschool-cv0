@@ -15,7 +15,6 @@
     margin: 0;
     padding: 0;
     display: flex;
-    /*font-family:;*/
 }
 
 .header {
@@ -49,13 +48,14 @@ h1 {
 .nav-list {
     display: flex;
     list-style: none;
+    gap: 30px;
     height: 50px;
-    margin-top: 20px;
-    margin-left: 454px;
-    vertical-align: middle;
+    margin: 20px 40px 20px 454px;
     text-align: center;
     width: 584px;
     font-size: 20px;
+    font-family: Inter;
+    white-space: nowrap;
 }
 
 .nav-link {
@@ -64,7 +64,6 @@ h1 {
     justify-content: center;
     text-decoration: none;
     color: #FFFFFF;
-    margin-left: 30px;
     width: auto;
     cursor: pointer;
 }
@@ -77,7 +76,7 @@ h1 {
 
 .icon_profile {
     margin-top: 31px;
-    margin-right: 48px;
+    margin-right: 20px;
 }
 
 .wel1 {
@@ -87,6 +86,7 @@ h1 {
     height: 220px;
     background-color: black;
 }
+
 .wel {
     width: 520px;
     height: 150px;
@@ -100,31 +100,45 @@ h1 {
 }
 
 .icon {
-    box-shadow: inset 1440px 300px 0px 300px black;/*тень*/
+    box-shadow: inset 1440px 300px 0px 300px black;
+    /*тень*/
 }
 
 .section-title {
     width: 106px;
     height: 61px;
-    margin-top: 20px;
-    margin-left: 667px;
+    margin: 20px 667px;
+    font-family: Forum;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.line {
+    background-color: black;
+    width: 50px;
+    height: 1px;
+    margin-left: 695px;
+    margin-top: 0;
 }
 
 .about {
     width: 1440px;
     height: 837px;
-    margin-left: 0;
+    margin-top: 40px 0 20px 0;
 }
 
 .text-about {
     width: 1440px;
     height: 40px;
     text-align: center;
-    margin-top: 38px;
+    font-family: Inter;
+    font-size: 20px;
+
 }
 
 .images-items {
     display: flex;
+    margin-left: 20px;
 }
 
 .image {
@@ -133,29 +147,29 @@ h1 {
     margin-right: 25px;
 }
 
-
-
 .carousel-pagination {
     display: flex;
-    margin-left: 686px;
-    margin-top: 20px;
+    margin: 40px 686px;
     width: 68px;
     height: 16px;
+    gap: 10px;
 }
 
 .dot.active {
     background-color: #BB945F;
 }
 
-span {
+button {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background-color: black; 
-    margin-right: 10px;
+    padding: 5px;
+    background-color: black;
     cursor: pointer;
+    border: none;
 }
-span:last-child{
+
+span:last-child {
     margin-right: 0;
 }
 
@@ -167,10 +181,11 @@ span:last-child{
 
 .section-title2 {
     width: 160px;
-    height: 61px;
-    margin-left: 640px;
-    margin-right: 640px;
-    margin-top: 20px;
+    height: 40px;
+    margin: 20px 640px;
+    font-family: Forum;
+    font-size: 40px;
+    letter-spacing: 2px;
 }
 
 .text-favorites {
@@ -179,5 +194,28 @@ span:last-child{
     font-size: 20px;
     text-align: center;
     font-family: Inter;
+    margin-top: 40px;
+    margin-left: 20px;
 }
 
+.seasons {
+    height: 24px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.seasons form {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.seasons label {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    
+}
