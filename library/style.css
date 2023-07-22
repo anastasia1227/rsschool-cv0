@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    display: block;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0;
+}
+
+.body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /*font-family:;*/
+}
+
+.header {
+    height: 90px;
+    width: 1440px;
+    display: flex;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.brooklyn {
+    width: 294px;
+    height: 50px;
+    margin: 20px 0 20px 20px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+    background-color: black;
+    letter-spacing: 0.6px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    font-family: 'Forum';
+}
+
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 454px;
+    vertical-align: middle;
+    text-align: center;
+    width: 584px;
+    font-size: 20px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 30px;
+    width: auto;
+    cursor: pointer;
+}
+
+.nav-item {
+    display: flex;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.icon_profile {
+    margin-top: 31px;
+    margin-right: 48px;
+}
+
+.wel1 {
+    position: absolute;
+    top: 290px;
+    width: 600px;
+    height: 220px;
+    background-color: black;
+}
+.wel {
+    width: 520px;
+    height: 150px;
+    color: #FFFFFF;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Forum';
+    margin: 35px 40px;
+    letter-spacing: 3px;
+}
+
+.icon {
+    box-shadow: inset 1440px 300px 0px 300px black;/*тень*/
+}
+
+.section-title {
+    width: 106px;
+    height: 61px;
+    margin-top: 20px;
+    margin-left: 667px;
+}
+
+.about {
+    width: 1440px;
+    height: 837px;
+    margin-left: 0;
+}
+
+.text-about {
+    width: 1440px;
+    height: 40px;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.images-items {
+    display: flex;
+}
+
+.image {
+    width: 450px;
+    height: 560px;
+    margin-right: 25px;
+}
+
+
+
+.carousel-pagination {
+    display: flex;
+    margin-left: 686px;
+    margin-top: 20px;
+    width: 68px;
+    height: 16px;
+}
+
+.dot.active {
+    background-color: #BB945F;
+}
+
+span {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: black; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+span:last-child{
+    margin-right: 0;
+}
+
+
+.favorites {
+    width: 1440px;
+    height: 1439px;
+}
+
+.section-title2 {
+    width: 160px;
+    height: 61px;
+    margin-left: 640px;
+    margin-right: 640px;
+    margin-top: 20px;
+}
+
+.text-favorites {
+    width: 234px;
+    height: 24px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Inter;
+}
+
