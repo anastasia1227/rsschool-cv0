@@ -120,7 +120,6 @@ h1 {
     width: 50px;
     height: 1px;
     margin-left: 695px;
-    margin-top: 0;
 }
 
 .about {
@@ -182,7 +181,18 @@ span:last-child {
     height: 1439px;
 }
 
-
+.text-faforites {
+    width: 234px;
+    height: 24px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    margin-left: 20px;
+}
 
 .seasons {
     height: 24px;
@@ -235,7 +245,7 @@ h3 {
     height: 1px;
     background: #BB945F;
     margin-left: 20px;
-    margin-top: 0;
+    margin-top: 20px;
 }
 
 .book-tytle {
@@ -246,7 +256,6 @@ h3 {
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 2px;
-    text-transform: uppercase;
     margin: 20px 0 0 20px;
 }
 
@@ -359,9 +368,37 @@ h3 {
     gap: 60px;
 }
 
+.left-column {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.right-column {
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
 .drink {
     width: 196px;
     height: 40px;
+    white-space: nowrap;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
 }
 
 .menu {
@@ -372,26 +409,62 @@ h3 {
 .contacts {
     display: flex;
     width: 1440px;
+    height: 575px;
     padding: 20px 20px 40px 20px;
     flex-direction: column;
     align-items: center;
     gap: 40px;
 }
 
-.text-info {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 201px;
+
+
+.info-item1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
 }
 
-.info-item {
+.info-item2 {
     color: #000;
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 2px;
+
+}
+
+.contacts-info {
+    gap: 201px;
+    display: flex;
+
+}
+
+.text-info {
+    gap: 40px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-item3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.line-contact-card {
+    width: 50px;
+    height: 1px;
+    background: #0C0C0E;
 }
