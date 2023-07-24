@@ -105,12 +105,14 @@ h1 {
 }
 
 .section-title {
-    width: 106px;
-    height: 61px;
-    margin: 20px 667px;
+    color: #0C0C0E;
     font-family: Forum;
     font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .line {
@@ -128,12 +130,13 @@ h1 {
 }
 
 .text-about {
-    width: 1440px;
-    height: 40px;
+    color: #000;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
 }
 
 .images-items {
@@ -179,24 +182,7 @@ span:last-child {
     height: 1439px;
 }
 
-.section-title2 {
-    width: 160px;
-    height: 40px;
-    margin: 20px 640px;
-    font-family: Forum;
-    font-size: 40px;
-    letter-spacing: 2px;
-}
 
-.text-favorites {
-    width: 234px;
-    height: 24px;
-    font-size: 20px;
-    text-align: center;
-    font-family: Inter;
-    margin-top: 40px;
-    margin-left: 20px;
-}
 
 .seasons {
     height: 24px;
@@ -219,12 +205,20 @@ span:last-child {
     font-size: 20px;
 }
 
-.first_book {
+.favorites-items {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 260px;
+    row-gap: 0;
+}
+
+.book {
+    position: relative;
     width: 550px;
     height: 555px;
     background-color: #FFF;
     border: 1px solid #000;
-    margin: 40px 260px 40px 20px;
+    margin: 40px 0 0 20px;
 }
 
 h3 {
@@ -271,17 +265,15 @@ h3 {
 }
 
 .buy {
+    position: absolute;
     width: 75px;
     height: 30px;
     border-radius: 2px;
     border: 1px solid #0C0C0E;
     background-color: #FFFFFF;
-    margin: 15px 0 0 20px;
-}
-
-.buy1 {
-    width: 21px;
-    height: 12px;
+    margin: 0;
+    top: 510px;
+    left: 20px;
     color: #0C0C0E;
     text-align: center;
     font-family: Inter;
@@ -290,6 +282,116 @@ h3 {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1px;
-    display: block;
-    margin: auto;
+}
+
+.pictures {
+    position: absolute;
+    left: 389px;
+    top: 254px;
+}
+
+.coffee-shop {
+    display: flex;
+    width: 1440px;
+    padding: 20px 20px 40px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.text-coffee {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.tytle-menu {
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.coffee-tea {
+    width: auto 438px;
+    height: auto 520px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.line1 {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+}
+
+.tytle-menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.desserts-cakes {
+    display: flex;
+    width: 482px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.tytle-menu-item1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+}
+
+.drink {
+    width: 196px;
+    height: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 480px;
+}
+
+.contacts {
+    display: flex;
+    width: 1440px;
+    padding: 20px 20px 40px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.text-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 201px;
+}
+
+.info-item {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
 }
