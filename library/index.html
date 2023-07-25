@@ -125,8 +125,8 @@
                 </div>
             </section>
             <section class="coffee-shop" id="coffee-shop">
-                <h2 class="section-title">Coffee shop</h2>
-                <div class="line-contact-card"></div>
+                <h2 class="section-title2">Coffee shop</h2>
+                <div class="line-coffee-contact"></div>
                 <p class="text-coffee">In our library, we have of cozy coffee shop, welcoming in customers with frothy
                     cappuccinos and friendly conversation.
                     You can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also
@@ -201,30 +201,76 @@
                     </div>
             </section>
             <section class="contacts" id="contacts">
-                <h2 class="section-title">Our Contacts</h2>
+                <h2 class="section-title3">Our Contacts</h2>
                 <div class="line"></div>
                 <div class="contacts-info">
                     <div class="text-info">
                         <div class="info-item1">For all Library inquiries:</div>
-                        <div class="info-item2">Please call (617) 730-2370</br> For TTY service, please call (617)
-                            730-2370</br> Putterham Library: (617) 730-2385
+                        <div class="info-item2">Please call <a chref="tel:(617) 730-2370">(617) 730-2370</a>
+                            </br> For TTY service, please call <a href="tel:(617) 730-2370">(617) 730-2370</a></br>
+                            Putterham Library: <a href="tel:(617) 730-2385">(617) 730-2385</a>
                         </div>
-                        <div class="info-item3">Senior Staff</br>Library Director: Amanda Hirst</div>
+                        <div class="info-item3">Senior Staff</div>
+                        <div class="info-item4">Library Director:<a href="mailto:AmandaHirst@gmail.com">Amanda Hirst</a></div>
                     </div>
                     <img class="map" src="assets/img/Rectangle 4.png" alt="Map" width="696px" height="414px">
                 </div>
-        </section>
-        <section class="library_card" id="library_card">
-            <h2 class="section-title">Digital Library Cards</h2>
-            <div class="line"></div>
-            <div class="find">Find your Library card</div>
-            <div class="name-number">
-                <div class="bpl">Brooklyn Public Library</div>
-                <div class="name"
-            </div>
-        </section>
+            </section>
+            <section class="library-card" id="library-card">
+                <h2 class="section-title">Digital Library Cards</h2>
+                <div class="line"></div>
+                <div class="big-block"></div>
+                <div class="text-find">Find your Library card</div>
+               
+                    <form action="page" class="page"> 
+                        <div class="find">
+                            <div class="find1">
+                                <div class="bpl">Brooklyn Public Library</div>
+    
+                                <label for="name"></label>
+                                <input type="text" placeholder="Reader's name" name="name" required>
+    
+                                <label for="number"></label>
+                                <input type="text" placeholder="Card number" name="number" required>
+                            </div>
+                            <button type="submit" class="check">Check the card</button>
+                        </div>
+                    </form>
+                    <div class="get-card">
+                        <div class="block1">Get a reader card</div>
+                        <div class="block2">You will be able to see a reader card after logging into account or you can
+                            register a new account</div>
+                        <div class="block3">
+                            <button type="submit" class="sign-log">Sign Up</button>
+                            <button type="submit" class="sign-log">Log In</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
+    <footer>
+        <div class="container">
+            <div class="footer-line1">
+                <div class="adress"><a href="https://www.google.by/maps/place/286+Cadman+Plaza+W,+Brooklyn,+NY+11201,+США/@40.6956458,-73.9912976,17z/data=!3m1!4b1!4m10!1m2!2m1!1s286+Cadman+Plaza,+New+York,+NY+11238!3m6!1s0x89c25a49b649b8c3:0x6342a2291cea2e!8m2!3d40.6956458!4d-73.9912976!15sCiQyODYgQ2FkbWFuIFBsYXphLCBOZXcgWW9yaywgTlkgMTEyMziSAQpzdWJwcmVtaXNl4AEA!16s%2Fg%2F11s2lgz8ns?entry=ttu" class="map-plaza" title="Map">286 Cadman Plaza, New York, NY 11238, United States</a></div>
+                <div class="time">Mon - Fri08:00 am - 07:00 pm</div>
+            </div>
+            <div class="footr-line2">
+                <div class="social-network">
+                    <div class=""
+                </div>
+                <div class="time2">Sat - Sun 10:00 am - 06:00 pm</div>
+            </div>
+            <div class="footer-line3"></div>
+            <nav class="rrs-footer">
+                <ul class="nav-list-footer">
+                    <li class="year">2023</li>
+                    <li class="school">The Rolling Scopes School</li>
+                    <li class="git"><a href="https://github.com/anastasia1227" class="git1" title="Github">Nastya Klimovich</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -120,6 +120,7 @@ h1 {
     width: 50px;
     height: 1px;
     margin-left: 695px;
+    padding: 0;
 }
 
 .about {
@@ -161,7 +162,7 @@ h1 {
     background-color: #BB945F;
 }
 
-button {
+.dot {
     width: 16px;
     height: 16px;
     border-radius: 50%;
@@ -412,11 +413,21 @@ h3 {
     height: 575px;
     padding: 20px 20px 40px 20px;
     flex-direction: column;
-    align-items: center;
     gap: 40px;
 }
 
-
+.section-title3 {
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
 .info-item1 {
     color: #000;
@@ -426,6 +437,7 @@ h3 {
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 2px;
+    margin-bottom: 40px;
 }
 
 .info-item2 {
@@ -439,18 +451,35 @@ h3 {
 
 }
 
-.contacts-info {
-    gap: 201px;
-    display: flex;
+.info-item2 a {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    gap: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline;
+}
 
+.contacts-info {
+    display: flex;
+    gap: 201px;
+    margin-top: 0;
 }
 
 .text-info {
-    gap: 40px;
-    align-items: flex-start;
     flex-direction: column;
-    justify-content: center;
+    display: inline-block;
+    white-space: nowrap;
+    width: 543px;
+    height: 400px;
     align-items: flex-start;
+    justify-content: center;
+    white-space: nowrap;
 }
 
 .info-item3 {
@@ -461,10 +490,271 @@ h3 {
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 2px;
+    margin-top: 40px;
 }
 
-.line-contact-card {
+.line-coffee-contact {
     width: 50px;
     height: 1px;
     background: #0C0C0E;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.section-title2 {
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.info-item4 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    text-align: start;
+}
+
+.info-item4 a {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    display: inline;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.library-card {
+    width: 1440px;
+    height: 614px;
+}
+
+.page {
+    width: 1440px;
+    height: 614px;
+    display: block;
+    
+}
+
+.big-block {
+    display: inline-flex;
+    align-items: center;
+    width: 1440px;
+    
+}
+
+.text-find {
+    width: 324px;
+    height: 36px;
+    margin-top: 40px;
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.find {
+    width: 600px;
+    height: 386px;
+    border: 3px solid #BB945F;
+    background: #FFF;
+    margin-top: 30px;
+}
+
+.bpl {
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    width: 294px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+.find1 {
+    width: 560px;
+    height: 272px;
+    background: #BB945F;
+    margin: 20px;
+
+
+}
+
+input[type=text],
+input[type=number] {
+    width: 520px;
+    height: 66px;
+    display: inline-block;
+    border-radius: 10px;
+    background: #FFF;
+    vertical-align: middle;
+    padding: 8px 303px 8px 20px;
+    margin: 20px 25px;
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+
+    letter-spacing: 0.6px;
+
+}
+
+
+input[type=text]:focus,
+input[type=number]:focus {
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+
+
+}
+
+.check button {
+    display: inline-flex;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+}
+
+.check {
+    padding: 10px 40px;
+    margin-bottom: 30px;
+    margin-left: 179px;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.get-card {
+    display: flex;
+    width: 456px;
+    flex-direction: column;
+    gap: 35px;
+    margin-right: 20px;
+}
+
+.block1 {
+    color: #000;
+    text-align: right;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.block2 {
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+}
+
+.block3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.sign-log button {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+   
+}
+
+.sign-log {
+    width: 75px;
+    height: 30px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+
+.nav-item1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.creation {
+    padding-top: 13px;
+}
+
+ul,
+li {
+    background-color: #d6acd6;
+}
+
+.nav-list1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    background-color: #d6acd6;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.nav-link1 {
+    text-decoration: none;
+    color: black;
+    background-color: #d6acd6;
 }
