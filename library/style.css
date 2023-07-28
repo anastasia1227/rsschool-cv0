@@ -15,6 +15,8 @@
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
@@ -292,7 +294,10 @@ h3 {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1px;
+    cursor: pointer;
 }
+
+
 
 .pictures {
     position: absolute;
@@ -544,24 +549,22 @@ h3 {
     height: 614px;
 }
 
-.page {
-    width: 1440px;
-    height: 614px;
-    display: block;
-    
-}
-
 .big-block {
     display: inline-flex;
-    align-items: center;
-    width: 1440px;
-    
+
+    gap: 344px;
+
 }
 
+.page {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+
 .text-find {
-    width: 324px;
-    height: 36px;
-    margin-top: 40px;
+    text-align: center;
     color: #000;
     font-family: Inter;
     font-size: 30px;
@@ -576,7 +579,6 @@ h3 {
     height: 386px;
     border: 3px solid #BB945F;
     background: #FFF;
-    margin-top: 30px;
 }
 
 .bpl {
@@ -660,6 +662,7 @@ input[type=number]:focus {
 }
 
 .get-card {
+    margin-top: 40px;
     display: flex;
     width: 456px;
     flex-direction: column;
@@ -702,13 +705,13 @@ input[type=number]:focus {
     justify-content: flex-end;
     border-radius: 2px;
     border: 1px solid #0C0C0E;
-   
+
 }
 
 .sign-log {
     width: 75px;
     height: 30px;
-    padding: 10px 0px;
+    text-align: center;
     justify-content: center;
     align-items: center;
     color: #0C0C0E;
@@ -723,38 +726,129 @@ input[type=number]:focus {
 }
 
 
-
-
-.nav-item1 {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+.container-footer {
+    width: 1440px;
+    height: 250px;
+    background: #0C0C0E;
+    padding-top: 20px;
 }
 
-.creation {
-    padding-top: 13px;
-}
-
-ul,
-li {
-    background-color: #d6acd6;
-}
-
-.nav-list1 {
+.footer-line {
     display: flex;
+    width: 1400px;
+    height: 90px;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    color: black;
-    background-color: #d6acd6;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    padding-left: 25px;
-    padding-right: 25px;
+    gap: 10px;
+    margin: 0 20px 30px 20px;
 }
 
-.nav-link1 {
+.footer-line1 {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1022px;
+}
+
+.address {
+    width: 229px;
     text-decoration: none;
-    color: black;
-    background-color: #d6acd6;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.time {
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer-line2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1147px;
+}
+
+.social-network {
+    display: flex;
+    width: 102px;
+    height: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.time2 {
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer-line3 {
+    width: 1400px;
+    height: 1px;
+    background: #FFF;
+    margin: 0 20px;
+}
+
+.footer-line4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px;
+    height: 20px;
+    background: #0C0C0E;
+    margin: 44px 20px;
+}
+
+.year {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.school {
+    display: flex;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.git {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
 }
