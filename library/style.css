@@ -813,7 +813,11 @@ input[type=number]:focus {
     width: 102px;
     height: 24px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start;    
+}
+
+.social {
+    display: flex;
     gap: 15px;
 }
 
