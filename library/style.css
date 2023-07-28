@@ -320,6 +320,7 @@ button:hover {
     border-radius: 2px;
     border: 1px solid #BB945F;
     background: #BB945F;
+    transition: 2s;
 }
 
 button:disabled {
