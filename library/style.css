@@ -297,10 +297,33 @@ h3 {
     cursor: pointer;
 }
 
+.own {
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    margin: 0;
+    top: 510px;
+    left: 20px;
+    color: #BB945F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
 button:hover {
     border-radius: 2px;
     border: 1px solid #BB945F;
     background: #BB945F;
+}
+
+button:disabled {
+    pointer-events: none;
 }
 
 .pictures {
