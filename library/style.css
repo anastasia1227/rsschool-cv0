@@ -118,20 +118,20 @@ h1 {
     line-height: 40px;
     letter-spacing: 2px;
     text-align: center;
+    margin-top: 0;
 }
 
 .line {
     background-color: black;
     width: 50px;
     height: 1px;
-    margin-left: 695px;
-    padding: 0;
+    margin: auto;
 }
 
 .about {
     width: 1440px;
     height: 837px;
-    margin-top: 40px 0 20px 0;
+    margin-top: 20px;
 }
 
 .text-about {
@@ -142,11 +142,13 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
+    margin-top: 40px;
 }
 
 .images-items {
     display: flex;
     margin-left: 20px;
+    margin-top: 20px;
 }
 
 .image {
@@ -185,6 +187,7 @@ span:last-child {
 .favorites {
     width: 1440px;
     height: 1439px;
+    margin-top: 20px;
 }
 
 .text-faforites {
@@ -342,6 +345,10 @@ button:disabled {
     padding: 20px 20px 40px 20px;
     flex-direction: column;
     align-items: center;
+}
+
+.coffe-shop1 {
+    display: flex;
     gap: 40px;
 }
 
@@ -449,21 +456,14 @@ button:disabled {
     height: 575px;
     padding: 20px 20px 40px 20px;
     flex-direction: column;
-    gap: 40px;
 }
 
-.section-title3 {
-    color: #0C0C0E;
-    font-family: Forum;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 2px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+.contacts1 {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
 }
+
 
 .info-item1 {
     color: #000;
@@ -500,7 +500,7 @@ button:disabled {
     white-space: nowrap;
     display: inline;
 }
-
+ 
 .contacts-info {
     display: flex;
     gap: 201px;
@@ -529,25 +529,6 @@ button:disabled {
     margin-top: 40px;
 }
 
-.line-coffee-contact {
-    width: 50px;
-    height: 1px;
-    background: #0C0C0E;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
-}
-
-.section-title2 {
-    color: #0C0C0E;
-    font-family: Forum;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 2px;
-    text-align: center;
-}
 
 .info-item4 {
     color: #000;
@@ -843,9 +824,8 @@ input[type=number]:focus {
 
 .footer-line4 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 1400px;
+    justify-content: space-between;
     height: 20px;
     background: #0C0C0E;
     margin: 44px 20px;
