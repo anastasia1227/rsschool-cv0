@@ -101,9 +101,12 @@ h1 {
     letter-spacing: 3px;
 }
 
-.icon {
-    box-shadow: inset 1440px 300px 0px 300px black;
-    /*тень*/
+.gradient {
+    width: 1440px;
+    height: 300px;
+    position: absolute;
+    top: 110px;
+    background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%);
 }
 
 .section-title {
@@ -813,7 +816,7 @@ input[type=number]:focus {
     width: 102px;
     height: 24px;
     justify-content: center;
-    align-items: flex-start;    
+    align-items: flex-start;
 }
 
 .social {
