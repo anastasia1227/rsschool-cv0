@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="assets/svg/favicon.ico">
+    <title>Brooklyn Publik Library</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header>
+    <header class="container">
         <div class="header">
             <div class="brooklyn">
                 <h1>Brooklyn Publik Library</h1>
             </div>
-
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
@@ -28,12 +26,11 @@
                     <li class="nav-item"><a href="#library_card" class="nav-link">Library card</a></li>
                 </ul>
             </nav>
-
             <div><img class="icon_profile" src="assets/svg/icon_profile.svg" alt="Profile" width="28" height="28"></div>
         </div>
     </header>
-    <main class="main-container">
-        <div class="container">
+    <main class="container">
+        <div class="container1">
             <section class="welcome" id="welcome">
                 <div class="gradient"></div>
                 <img class="icon" src="assets/img/Welcome.png" alt="Icon" width="1440" height="600">
@@ -235,11 +232,11 @@
                             <div class="find1">
                                 <div class="bpl">Brooklyn Public Library</div>
 
-                                <label for="name"></label>
-                                <input type="text" placeholder="Reader's name" name="name" required>
+                                <label></label>
+                                <input type="text" placeholder="Reader's name" name="name1" required>
 
-                                <label for="number"></label>
-                                <input type="text" placeholder="Card number" name="number" required>
+                                <label></label>
+                                <input type="text" placeholder="Card number" name="number1" required>
                             </div>
                             <button type="submit" class="check">Check the card</button>
                         </div>
@@ -257,7 +254,7 @@
             </section>
         </div>
     </main>
-    <footer>
+    <footer class="container">
         <div class="container-footer">
             <div class="footer-line">
                 <div class="footer-line1">
@@ -292,5 +289,4 @@
         </div>
     </footer>
 </body>
-
 </html>
